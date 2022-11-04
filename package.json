@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tests": " .\\node_modules\\.bin\\cypress run",
-    "bhrtests": "npm run tests --"
+    "bhrtests": "npm run tests -- NO_COLOR=1"
   },
   "author": "",
   "license": "ISC",
